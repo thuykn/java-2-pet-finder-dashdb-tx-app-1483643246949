@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: java-2-pet-finder-dashdb-tx-app
+  host: java-2-pet-finder-dashdb-tx-app
+  disk_quota: 1024M
+  services:
+  - dashdb_tx_sql_2
